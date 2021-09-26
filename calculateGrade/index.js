@@ -20,11 +20,11 @@ function calculateGrade(marks) {
     if(grade >= 71 && grade <= 80) {
         console.log('B');
         return 'B';
-    }
-    if(grade >= 81 && grade <= 100) {
+    } else {
         console.log('A');
         return 'A';
     }
+    
 }
 
 calculateGrade([90,91,92,93,94]);
