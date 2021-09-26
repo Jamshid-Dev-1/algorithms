@@ -5,7 +5,7 @@ checkSpeed(93);
 
 function checkSpeed(speed) {
   if (speed !== defaultSpeed) {
-    if (speed - defaultSpeed > 1) {
+    if (speed > defaultSpeed) {
       const pointR = Math.floor((speed - defaultSpeed) / 5);
       point = pointR;
       if (pointR >= 12) {
